@@ -1,0 +1,50 @@
+Votes: (('A', 'B', 'C'), ('A', 'B', 'C'), ('A', 'B', 'C'))
+
+borda - A
+condorcet - A
+approval_2 - frozenset(['A', 'B'])
+approval_3 - frozenset(['A', 'C', 'B'])
+majority - A
+metatheory_simple - A
+
+
+Votes: (('A', 'B', 'C'), ('B', 'A', 'C'), ('C', 'A', 'B'))
+
+borda - A
+condorcet - A
+approval_2 - A
+approval_3 - frozenset(['A', 'C', 'B'])
+majority - frozenset(['A', 'C', 'B'])
+metatheory_simple - A
+
+
+Votes: (('A', 'B', 'C'), ('B', 'C', 'A'), ('C', 'A', 'B'))
+
+borda - frozenset(['A', 'C', 'B'])
+condorcet - frozenset(['A', 'C', 'B'])
+approval_2 - frozenset(['A', 'C', 'B'])
+approval_3 - frozenset(['A', 'C', 'B'])
+majority - frozenset(['A', 'C', 'B'])
+metatheory_simple - frozenset(['A', 'C', 'B'])
+
+
+Votes: (('A', 'D', 'B', 'C'), ('B', 'C', 'A', 'D'), ('C', 'A', 'D', 'B'))
+
+borda - A
+condorcet - frozenset(['A', 'C', 'B', 'D'])
+approval_2 - frozenset(['A', 'C'])
+approval_3 - A
+majority - frozenset(['A', 'C', 'B'])
+metatheory_simple - A
+
+
+Votes: (('A', 'B', 'C', 'D'), ('A', 'B', 'C', 'D'), ('B', 'C', 'D', 'A'), ('D', 'B', 'C', 'A'), ('C', 'D', 'B', 'A'))
+
+borda - B
+condorcet - B
+approval_2 - B
+approval_3 - frozenset(['C', 'B'])
+majority - A
+metatheory_simple - B
+
+

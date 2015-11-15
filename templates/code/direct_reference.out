@@ -1,0 +1,18 @@
+According to DirectReference:
+
+The ID 140110626311728
+    refers to
+{'first_name': 'Friedrich', 'last_name': 'Nietzsche', 'middle_name': 'Wilhelm', 'author': True, 'author_of': ('Thus Spake Zarathustra', 'The Gay Science'), 'fictional': False, 'religion': None, 'birthday': datetime.date(1844, 10, 15), 'philosopher': True, 'deathday': datetime.date(1900, 8, 25), 'nationality': 'German', 'mustache': True}
+
+The ID 140110626311432
+    refers to
+{'king': True, 'first_name': None, 'last_name': None, 'middle_name': None, 'exists': False, 'fictional': False, 'king_of_country': 'France', 'rule_interval': None, 'birthday': None}
+
+The ID 140110626311136
+    refers to
+{'first_name': 'Santa', 'last_name': 'Claus', 'middle_name': None, 'nicknames': ('Santa', 'Saint Nick', 'Kris Kringle'), 'exists': False, 'joyous': True, 'overweight': True, 'fictional': True, 'clothing_colors': (<exphil.things.color.Color object at 0x7f6e0a7311d0>, <exphil.things.color.Color object at 0x7f6e0a731110>), 'birthday': None, 'hair_colors': (<exphil.things.color.Color object at 0x7f6e0a731110>, <exphil.things.color.Color object at 0x7f6e0a731150>), 'mustache': True}
+
+The ID None
+    refers to
+None
+
