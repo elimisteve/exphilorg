@@ -15,7 +15,7 @@ class Descriptivism(exphil.Theory):
         Answers the question, "what does `ref` refer to (according to
         Descriptivism)?"
 
-        TODO(sdp): Decide which `ref` types should be accepted.  (Just
+        TODO(elimisteve): Decide which `ref` types should be accepted.  (Just
         dicts? Strings? Some types should refer to themselves,
         perhaps.)
         '''

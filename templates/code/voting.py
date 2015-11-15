@@ -9,12 +9,12 @@ def borda(prefs):
     prefs should be a tuple of tuples indicating preferences.  E.g.,
     (('A', 'B', 'C'), ('A', 'C', 'B'), ('C', 'B', 'A'))
 
-    TODO(sdp): Handle ties, like ('A', ('B', 'C')) or perhaps ('A',
+    TODO(elimisteve): Handle ties, like ('A', ('B', 'C')) or perhaps ('A',
     {'B', 'C'}) means that A is preferred to B and C, but neither B
     nor C is preferred to the other.
 
 
-    NOTE(sdp): Supposedly always spits out an ordering, unlike
+    NOTE(elimisteve): Supposedly always spits out an ordering, unlike
     Condorcet (as per MathPhil lecture 7-1)
 
     Violates Independence of Irrelevant Alternatives
@@ -84,7 +84,7 @@ def condorcet(prefs):
                 left = vote[left_ndx]
                 vote_totals[(left, right)] += 1
 
-    # TODO(sdp): Detect cycles
+    # TODO(elimisteve): Detect cycles
 
     # The winner is the one that defeats all other candidates in a
     # pair-wise comparison, unless vote_totals[A] == vote_totals[B]
@@ -99,7 +99,7 @@ def condorcet(prefs):
     # as a winner and a cycle between the remaining options!
 
 
-    # FIXME(sdp): For now, assume there is either 1 winner, or a tie
+    # FIXME(elimisteve): For now, assume there is either 1 winner, or a tie
     # between all candidates
     candidates = prefs[0]
     for c in candidates:
@@ -109,7 +109,7 @@ def condorcet(prefs):
             return c
 
     # To repeat...
-    # FIXME(sdp): For now, assume there is either 1 winner, or a tie
+    # FIXME(elimisteve): For now, assume there is either 1 winner, or a tie
     # between all candidates
     return frozenset(candidates)
 
