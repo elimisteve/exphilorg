@@ -39,6 +39,21 @@
   such as those below, and much more.
 </p>
 
+<h3>ExPhil in Action</h3>
+
+{% for example in examples %}
+
+<h4>Example #{{ loop.index }}: {{ example.title }}</h4>
+<script src="http://gist-it.appspot.com/{{ example.embed_url }}"></script>
+<br>
+
+<h4>{{ example.title }} output</h4>
+<pre>{{ example.output }}</pre>
+
+<br>
+{% endfor %}
+
+
 {# TODO: Implement something like
 <h3>Examples of Executable Philosophy</h3>
 http://blogs.sitepointstatic.com/examples/tech/css3-target/tabs.html#tab1
