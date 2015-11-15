@@ -1,0 +1,20 @@
+#!/bin/bash
+
+export PROJECT_NAME=$(basename `pwd`)
+
+#
+# Check out master branch to disk
+#
+CHECKOUT_PATH="$HOME/code/checkouts/$PROJECT_NAME" # equivalent
+mkdir $CHECKOUT_PATH 2>&1 | grep -v .
+
+echo "Checking out 'master' branch..."
+GIT_WORK_TREE=$CHECKOUT_PATH git checkout -f master
+
+echo "Running pip install..."
+source /usr/local/bin/virtualenvwrapper.sh && \
+    workon $PROJECT_NAME && \
+    pip install -r $CHECKOUT_PATH/requirements.txt
+
+echo "Restarting $PROJECT_NAME's gunicorn/supervisord process..."
+sudo supervisorctl restart $PROJECT_NAME
