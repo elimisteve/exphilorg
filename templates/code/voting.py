@@ -180,8 +180,8 @@ all_theories = (
 
 def randomly(prefs):
     '''
-    Randomly choose a candidate among those included in the first
-    voter's preferences.
+    Randomly choose a candidate among those included in the
+    preferences of the first voter.
 
     Assumes the first voter states his/her opinion on every candidate.
     '''
