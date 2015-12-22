@@ -58,7 +58,7 @@ Coming very soon
 
 {% for example in examples %}
 
-<h4>Example #{{ loop.index }}: {{ example.title }}</h4>
+<h4 id="example{{ loop.index }}">Example #{{ loop.index }}: {{ example.title }}</h4>
 <script src="http://gist-it.appspot.com/{{ example.embed_url }}"></script>
 <br>
 
