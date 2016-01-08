@@ -1,0 +1,45 @@
+
+
+According to the `References do not exist` theory of reference  {'is_skeptical': True, 'is_descriptivist': False, 'is_singular': True, 'is_rigid_designating': False, 'is_intensional': False}:
+
+  Female author of "Thus Spake Zarathustra"                                  refers to  None
+
+  Discoverer of the incompleteness theorem (in Kripke's thought experiment)  refers to  None
+
+  Santa                                                                      refers to  None
+
+
+According to the `Direct reference` theory of reference  {'is_skeptical': False, 'is_descriptivist': False, 'is_singular': True, 'is_rigid_designating': True, 'is_intensional': False}:
+
+  Female author of "Thus Spake Zarathustra"                                  refers to  {'first_name': 'Friedrich', 'last_name': 'Nietzsche', 'middle_name': 'Wilhelm', 'author': True, 'author_of': ('Thus Spake Zarathustra', 'The Gay Science'), 'fictional': False, 'sex': 'male', 'religion': None, 'birthday': datetime.date(1844, 10, 15), 'philosopher': True, 'deathday': datetime.date(1900, 8, 25), 'nationality': 'German', 'mustache': True}
+
+  Discoverer of the incompleteness theorem (in Kripke's thought experiment)  refers to  {'first_name': 'Kurt', 'last_name': 'Godel', 'middle_name': 'Friedrich', 'mathematician': True, 'fictional': False, 'sex': 'male', 'discovered': None, 'religion': 'Christianity', 'logician': True, 'birthday': datetime.date(1906, 4, 28), 'philosopher': True, 'deathday': datetime.date(1978, 1, 14)}
+
+  Santa                                                                      refers to  {'first_name': 'Santa', 'last_name': 'Claus', 'middle_name': None, 'nicknames': ('Santa', 'Saint Nick', 'Kris Kringle'), 'exists': False, 'joyous': True, 'overweight': True, 'fictional': True, 'sex': 'male', 'clothing_colors': (<exphil.things.color.Color object at 0x7f9d7a7cd750>, <exphil.things.color.Color object at 0x7f9d7a7cd690>), 'birthday': None, 'hair_colors': (<exphil.things.color.Color object at 0x7f9d7a7cd690>, <exphil.things.color.Color object at 0x7f9d7a7cd6d0>), 'mustache': True}
+
+
+According to the `Nothing refers` theory of reference  {'is_skeptical': True, 'is_descriptivist': False, 'is_singular': True, 'is_rigid_designating': False, 'is_intensional': False}:
+
+  Female author of "Thus Spake Zarathustra"                                  refers to  None
+
+  Discoverer of the incompleteness theorem (in Kripke's thought experiment)  refers to  None
+
+  Santa                                                                      refers to  None
+
+
+According to the `Descriptivist` theory of reference  {'is_skeptical': False, 'is_descriptivist': True, 'is_singular': True, 'is_rigid_designating': False, 'is_intensional': False}:
+
+  Female author of "Thus Spake Zarathustra"                                  refers to  None
+
+  Discoverer of the incompleteness theorem (in Kripke's thought experiment)  refers to  {'discovered': ('The Incompleteness Theorem', 'The Completeness Theorem'), 'birthday': None, 'first_name': None, 'last_name': 'Schmidt', 'middle_name': None, 'mathematician': True, 'fictional': False}
+
+  Santa                                                                      refers to  {'first_name': 'Santa', 'last_name': 'Claus', 'middle_name': None, 'nicknames': ('Santa', 'Saint Nick', 'Kris Kringle'), 'exists': False, 'joyous': True, 'overweight': True, 'fictional': True, 'sex': 'male', 'clothing_colors': (<exphil.things.color.Color object at 0x7f9d7a7cd750>, <exphil.things.color.Color object at 0x7f9d7a7cd690>), 'birthday': None, 'hair_colors': (<exphil.things.color.Color object at 0x7f9d7a7cd690>, <exphil.things.color.Color object at 0x7f9d7a7cd6d0>), 'mustache': True}
+
+
+According to the `Intensional` theory of reference  {'is_skeptical': False, 'is_descriptivist': False, 'is_singular': False, 'is_rigid_designating': False, 'is_intensional': True}:
+
+  Female author of "Thus Spake Zarathustra"                                  refers to  {'first_name': 'Friedrich', 'last_name': 'Nietzsche', 'middle_name': 'Wilhelm', 'author': True, 'author_of': ('Thus Spake Zarathustra', 'The Gay Science'), 'fictional': False, 'sex': 'male', 'religion': None, 'birthday': datetime.date(1844, 10, 15), 'philosopher': True, 'deathday': datetime.date(1900, 8, 25), 'nationality': 'German', 'mustache': True}
+
+  Discoverer of the incompleteness theorem (in Kripke's thought experiment)  refers to  {'first_name': 'Kurt', 'last_name': 'Godel', 'middle_name': 'Friedrich', 'mathematician': True, 'fictional': False, 'sex': 'male', 'discovered': None, 'religion': 'Christianity', 'logician': True, 'birthday': datetime.date(1906, 4, 28), 'philosopher': True, 'deathday': datetime.date(1978, 1, 14)}
+
+  Santa                                                                      refers to  {'first_name': 'Santa', 'last_name': 'Claus', 'middle_name': None, 'nicknames': ('Santa', 'Saint Nick', 'Kris Kringle'), 'exists': False, 'joyous': True, 'overweight': True, 'fictional': True, 'sex': 'male', 'clothing_colors': (<exphil.things.color.Color object at 0x7f9d7a7cd750>, <exphil.things.color.Color object at 0x7f9d7a7cd690>), 'birthday': None, 'hair_colors': (<exphil.things.color.Color object at 0x7f9d7a7cd690>, <exphil.things.color.Color object at 0x7f9d7a7cd6d0>), 'mustache': True}
