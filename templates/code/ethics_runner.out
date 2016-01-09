@@ -1,0 +1,30 @@
+
+According to the Kantian ethical theory  {'is_skeptical': False, 'is_consequentialist': False, 'is_kantian': True, 'is_infinitely_strict': False, 'is_infinitely_lenient': False}:
+  accidental manslaughter  is  moral
+  organ harvesting         is  immoral
+  walking                  is  moral
+  murder                   is  immoral
+
+According to the Skepticism ethical theory  {'is_skeptical': True, 'is_consequentialist': False, 'is_kantian': False, 'is_infinitely_strict': False, 'is_infinitely_lenient': False}:
+  There are no moral facts
+  There are no moral facts
+  There are no moral facts
+  There are no moral facts
+
+According to the Everything is moral ethical theory  {'is_skeptical': False, 'is_consequentialist': False, 'is_kantian': False, 'is_infinitely_strict': False, 'is_infinitely_lenient': True}:
+  accidental manslaughter  is  moral
+  organ harvesting         is  moral
+  walking                  is  moral
+  murder                   is  moral
+
+According to the Consequentialism ethical theory  {'is_skeptical': False, 'is_consequentialist': True, 'is_kantian': False, 'is_infinitely_strict': False, 'is_infinitely_lenient': False}:
+  accidental manslaughter  is  immoral
+  organ harvesting         is  moral
+  walking                  is  moral
+  murder                   is  immoral
+
+According to the Everything is immoral ethical theory  {'is_skeptical': False, 'is_consequentialist': False, 'is_kantian': False, 'is_infinitely_strict': True, 'is_infinitely_lenient': False}:
+  accidental manslaughter  is  immoral
+  organ harvesting         is  immoral
+  walking                  is  immoral
+  murder                   is  immoral

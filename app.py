@@ -25,6 +25,11 @@ def index():
             'embed_url': 'github.com/elimisteve/exphilorg/blob/master/templates/code/names_runner.py',
             'output': render_template('code/names_runner.out'),
         },
+        {
+            'title': 'ethics_runner.py',
+            'embed_url': 'github.com/elimisteve/exphilorg/blob/master/templates/code/ethics_runner.py',
+            'output': render_template('code/ethics_runner.out'),
+        },
     ]
     return render_template('index.html', examples=examples)
 
